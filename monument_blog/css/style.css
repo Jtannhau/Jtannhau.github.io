@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+font-family: 'raleway', sans-serif;
+font-size: 15px;
+color: #44545E;
+text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 16px;
+	color:#7B98AA;
+	display: inline-block;
+}
+
+p {
+	font-family: 'Lato';
+	font-size: 15px;
+	text-align: left;
+}
+
+header h1 a {
+text-align: center;
+color: white;
+font-size: 37px;
+text-transform: uppercase;
+}
+
+header {
+	background-image:url("../images/blog_header_bg.jpg");
+	background-position: center;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 75% 25%;
+	grid-column-gap: 60px;
+	}
+
+body nav a {
+	margin: 20px;
+}
+
+article h3 {
+	font-size: 18px;
+	text-align: left;
+}
+
+article h2 {
+	font-size: 23px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+aside {
+	font-size: 18px;
+	text-align: left;
+}
+
+aside h3 {
+	text-transform: uppercase;
+}
+
+aside li {
+	font-size: 15px;
+}
+
+footer {
+	background-color: #CDF3F6;
+	color: #44545E;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 30px;
+}
+
+footer a {
+	color: #44545E;
+	padding: 20px;
+	display: inline-block;
+}
+
+footer p {
+	font-family: 'lato';
+	text-align: center;
+}
+footer p a {
+	text-transform: none;
+	padding: 0px;
+}
+
+hr {
+	border-style: solid;
+}
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}
