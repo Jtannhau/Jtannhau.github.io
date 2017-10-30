@@ -1,0 +1,177 @@
+
+/*Add a link to Google Fonts at the top! THis should be the first line of your stylesheet.*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'raleway', sans-serif;
+	font-size: 23px;
+	color: #44545E;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+nav a {
+	color: #7B98AA;
+	text-decoration: none;
+	margin:60px;
+	font-size: 16px;
+}
+
+header h1 a {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 15px;
+}
+
+header {
+	background-image: url("../images/home_header_bg.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	justify-content: center;
+	color: white;
+	padding-top: 150px;
+}
+
+h2 {
+	font-size: 23px;
+	padding: 10px;
+}
+
+section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.article-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 60px;
+}
+
+p {
+	text-transform: none;
+	font-size: 15px;
+	font-famiy: 'lato';
+}
+
+h3 {
+	font-size: 18px;
+}
+
+article a {
+	font-size: 13px;
+	color: #44545E;
+	text-decoration: none;
+	border: 1px solid #44545E;
+	display: inline-block;
+	padding: 10px;
+}
+
+.about {
+	background-color: #CDF3F6;
+	padding: 75px 10px;
+}
+
+.centered-layout {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.gallery-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	margin: 50px;
+}
+
+footer {
+	background-color: #CDF3F6;
+	overflow: auto;
+}
+
+footer .wrap {
+	padding: 30px 15px;
+}
+
+.social-links a {
+	font-size: 30px;
+	padding: 15px;
+	margin-bottom: 30px;
+	display: inline-block;
+	color: #44545E;
+}
+
+hr {
+	border-style: solid;
+	border-color: #44545E;
+}
+
+button {
+	cursor: pointer;
+	outline: 0;
+	border: 2px solid #44545E;
+	color: #44545E;
+	padding: 8px 25px;
+	background-color: transparent;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	transition: all .3s ease-in-out;
+}
+
+input {
+	margin-bottom: 12px;
+	margin-right: 30px;
+	padding: 11px 10px;
+	outline: 0;
+	width: 300px;
+	border: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
