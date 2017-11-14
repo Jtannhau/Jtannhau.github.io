@@ -1,0 +1,70 @@
+
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans+Condensed:300|Pacifico|Roboto');
+
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+header {
+  padding: 40px;
+  background-color: #f2d5f8;
+  color: #210b2c;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: 'Pacifico',cursive;
+  font-size: 48px;
+  text-align: center;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'open sans condensed', sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  width: 100%;
+}
+
+nav a, footer a {
+  padding: 20px;
+  text-decoration: none;
+  color: #38023b;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'open sans condensed', sans-serif;
+  font-weight: bold;
+  background-position: center;
+}
+
+img {
+
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.album-grid {
+  display:grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-column-gap: 60px;
+}
