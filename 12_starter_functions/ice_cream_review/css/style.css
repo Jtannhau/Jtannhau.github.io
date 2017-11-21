@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  margin: 40px auto;
+  display: block;
+  width: 30%;
+}
