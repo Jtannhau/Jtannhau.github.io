@@ -1,0 +1,46 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #222;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 60px;
+  letter-spacing: .04em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button,
+button:hover,
+button:focus {
+  background-color: #E8519C;
+  color: white;
+  padding:  8px 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  outline: 0;
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+  width: 350px;
+}
+
+#unique {
+  color: #59B776;
+  /*hide when the page loads*/
+  display: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bg {
+  background-color: #C4F4ED;
+}
