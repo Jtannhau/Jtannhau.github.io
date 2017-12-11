@@ -1,5 +1,35 @@
 // Make it rain!
 
+//Fresh start today, based on new wireframing:
+//when a user clicks on the right arrow next to the n. american shelf
+  //
+
+
+//when a user clicks on the left arrow next to the n. american shelf
+  //
+
+
+//when a user clicks on an image within n. america
+  //Enlarge photo size of the picture clicked
+  //shrink photo sizes of the other pictures remaining on the shelf
+  //Adjust the shelf below to move further down the page (does this automatically happen?)
+
+//repeat the above actions for all the galleries
+
+
+//when the user hovers on subscribe button
+  //add css class to change color of the subscribe button
+
+//when the user clicks subscribe
+  // show success modal
+
+//when the user clicks the x in the success modal
+  // hide the success modeal
+
+
+
+
+//Homework from this weekend
 //when the user hovers on the see more button under north america
   //add css class to change color of the se more button to dark purple
 

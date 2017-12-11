@@ -10,21 +10,6 @@ Base styles:
 }
 
 /* Fix for responsive images */
-button {
-	cursor: pointer;
-	outline: 0;
-	border: 2px solid #44545E;
-	color: #44545E;
-	padding: 8px 25.5px;
-	background-color: transparent;
-	font-weight: 500;
-	text-transform: uppercase;
-	font-size: 12.299px;
-	letter-spacing: 1.2px;
-	transition: all .3s ease-in-out;
-  margin-top:30px;
-}
-
 
 
 header {
@@ -68,18 +53,20 @@ nav a, footer a {
 }
 
 img {
-
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 8px;
 }
 
 h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'open sans condensed', sans-serif;
+  font-size: 28px;
 }
 
-.galleries {
-  display:grid;
-  grid-template-columns: 1fr, 1fr, 1fr;
-  grid-column-gap: 60px;
+article h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-transform: none;
 }
 
 footer {
@@ -87,8 +74,45 @@ footer {
   width: 100%;
 }
 
+section {
+  margin: 50px;
+}
+
+
+button {
+	cursor: pointer;
+	outline: 0;
+	border: 2px solid #44545E;
+	color: #44545E;
+	padding: 8px 25.5px;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 12.299px;
+  /*need to make buttons a fixed size*/
+  }
+
+.northamerica {
+  display: flex;
+  flex-direction:row;
+}
+
+.southamerica {
+  display:flex;
+  flex-direction: row;
+}
+
+.europe {
+  display:flex;
+  flex-direction: row;
+}
+
+.asia {
+  display:flex;
+  flex-direction: row;
+}
+
 .footer a {
-	font-size: 30px;
+	font-size: 18px;
 	padding: 15px;
 	margin-bottom: 30px;
 	display: inline-block;
