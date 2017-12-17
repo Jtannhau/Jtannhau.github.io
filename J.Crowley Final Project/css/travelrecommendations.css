@@ -56,29 +56,10 @@ nav a, footer a {
   background-position: center;
 }
 
-img {
-  max-width: 250px;
-  max-height: 180px;
-  margin: 0 auto;
-  padding: 8px;
-}
-
 h3 {
   font-family: 'open sans condensed', sans-serif;
   font-size: 28px;
   text-align: left;
-}
-
-h4 {
-  font-family: 'open sans condensed', sans-serif;
-  font-size: 24px;
-  text-align: center;
-}
-
-article h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  text-transform: none;
 }
 
 footer {
@@ -106,11 +87,13 @@ button {
   background: #210b2c;
   }
 
-.galleriesbycontinent {
-  margin-left: 10%;
-  display: flex;
-  flex-direction:row;
-}
+  section input {
+    border: 0.5px solid grey;
+    display: block;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+  }
 
 .footer a {
 	font-size: 18px;
