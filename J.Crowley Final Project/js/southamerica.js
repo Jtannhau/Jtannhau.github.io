@@ -30,17 +30,3 @@ $('#previous').on('click', function() {
   $('img').hide();
   $('img').eq(imageNumber).fadeIn(300);
 });
-
-
-setInterval(function () {
-  if (imageNumber < 5) {
-    imageNumber++;
-  } else {
-    imageNumber = 0;
-  }
-
-  console.log(imageNumber);
-
-  $('img').hide();
-  $('img').eq(imageNumber).fadeIn(300);
-}, 6000);
